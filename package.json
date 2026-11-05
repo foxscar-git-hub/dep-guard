@@ -1,0 +1,29 @@
+{
+  "name": "dep-guard",
+  "version": "0.1.0",
+  "description": "Scans your npm dependency tree for typosquat risk and sudden maintainer/ownership changes - the signature of supply-chain account takeovers.",
+  "bin": {
+    "depguard": "bin/depguard.js"
+  },
+  "main": "src/registry.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "npm",
+    "security",
+    "supply-chain",
+    "typosquatting",
+    "cli",
+    "audit"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ]
+}
